@@ -1,0 +1,12 @@
+.headline {
+  background: #ddd;
+  padding: 10px;
+}
+
+.tag {
+  color: red;
+}
+
+body :not(.headline):hover {
+  outline: 1px dotted red;
+}
