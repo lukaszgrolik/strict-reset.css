@@ -4,7 +4,7 @@
 <head>
   <title>test</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="../reset-ie7.css">
+  <link rel="stylesheet" href="../reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -153,37 +153,63 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><b
   <fieldset>
     <legend>legend</legend>
 
-    <input><br>
-    <input value="input"><br>
-    <input placeholder="input with placeholder"><br>
-    <label><input> input wrapped in label</label><br>
-    <textarea>textarea</textarea><br>
+    <input type="text">
+    <input type="text" value="input" id="a">
+    <label for="a">label</label>
+    <input type="text" placeholder="input with placeholder">
+    <label><input type="text"> input wrapped in label</label>
+    <textarea>textarea</textarea>
+
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="checkbox">
+
+    <input type="radio">
+    <input type="radio">
+    <input type="radio">
 
     <select>
       <option>select option1</option>
-      <option>select option2</option>
-      <option>select option3</option>
-    </select><br>
+      <option selected>select option2</option>
+      <option disabled>select option3</option>
+    </select>
 
     <select>
       <option>select option1</option>
-      <option>select option2</option>
+      <option selected>select option2</option>
       
       <optgroup label="optgroup1">
         <option>select optgroup1 option1</option>
-        <option>select optgroup1 option2</option>
+        <option disabled>select optgroup1 option2</option>
         <option>select optgroup1 option3</option>
       </optgroup>
 
       <optgroup label="optgroup2">
-        <option>select optgroup2 option1</option>
+        <option disabled>select optgroup2 option1</option>
         <option>select optgroup2 option2</option>
         <option>select optgroup2 option3</option>
       </optgroup>
-    </select><br>
+    </select>
 
-    <input type="button" value="input button"><br>
-    <input type="reset" value="input reset"><br>
+    <select multiple>
+      <option>select option1</option>
+      <option selected>select option2</option>
+      
+      <optgroup label="optgroup1">
+        <option>select optgroup1 option1</option>
+        <option disabled>select optgroup1 option2</option>
+        <option>select optgroup1 option3</option>
+      </optgroup>
+
+      <optgroup label="optgroup2">
+        <option disabled>select optgroup2 option1</option>
+        <option selected>select optgroup2 option2</option>
+        <option>select optgroup2 option3</option>
+      </optgroup>
+    </select>
+
+    <input type="button" value="input button">
+    <input type="reset" value="input reset">
     <input type="submit" value="input submit">
   </fieldset>
 </form><br>

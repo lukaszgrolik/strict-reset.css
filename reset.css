@@ -47,8 +47,6 @@ video {
 html {
   background: #fff;
   color: #000;
-  font-family: sans-serif;
-  font-size: 16px;
   line-height: 1;
 }
 
@@ -66,14 +64,6 @@ img {
 q:before,
 q:after {
   content: none;
-}
-
-code,
-var,
-kbd,
-samp,
-pre {
-  font-family: monospace;
 }
 
 hr {
@@ -104,10 +94,22 @@ th {
 /* UI controls */
 
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   cursor: pointer;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"],
+label,
+[type="text"],
+textarea,
+select {
+  display: block;
+  width: 100%;
 }
 
 textarea {
@@ -137,7 +139,7 @@ textarea {
 }
 
 /* Mozilla Firefox 19+ */
-::-moz-placeholder { 
+::-moz-placeholder {
   color: inherit;
   opacity: 1;
 }

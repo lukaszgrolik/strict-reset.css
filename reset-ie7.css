@@ -1,3 +1,5 @@
+/* DEPRECATED */
+
 * {
 /* IE7 does not support box-sizing */
 /*  -moz-box-sizing: border-box;
@@ -135,7 +137,7 @@ textarea {
 }
 
 /* Mozilla Firefox 19+ */
-::-moz-placeholder { 
+::-moz-placeholder {
   color: inherit;
   opacity: 1;
 }
