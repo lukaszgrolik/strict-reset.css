@@ -122,24 +122,7 @@ textarea {
 
 /* Input placeholders */
 
-/* WebKit browsers */
-::-webkit-input-placeholder {
-  color: inherit;
-}
-
-/* Mozilla Firefox 4 to 18 */
-:-moz-placeholder {
+::placeholder {
   color: inherit;
   opacity: 1;
-}
-
-/* Mozilla Firefox 19+ */
-::-moz-placeholder {
-  color: inherit;
-  opacity: 1;
-}
-
-/* Internet Explorer 10+ */
-:-ms-input-placeholder {
-  color: inherit;
 }
