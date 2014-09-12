@@ -2,6 +2,8 @@
 
 *Strict-reset.css* chooses a traditional *reset* approach over a lately popularized *normalize* approach. Created for these who want to have a maximum control over styling elements from scratch - hence no paddings and margins, every element with transparent backgrounds, the same font and text properties, UI elements with initial `display: block` and `width: 100%` etc. Leverages global `box-sizing: border-box`.
 
+Use [Autoprefixer](https://github.com/postcss/autoprefixer) to add prefixes to such properties as `box-sizing` or `::placeholder`.
+
 ## License
 
 Strict-reset.css is released under the MIT License.
