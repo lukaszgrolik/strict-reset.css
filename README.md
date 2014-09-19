@@ -6,7 +6,7 @@ Use [Autoprefixer](https://github.com/postcss/autoprefixer) to add prefixes to s
 
 ## Install
 
-### Bower:
+### Bower
 
 - Terminal: `bower install strict-reset.css`
 - SCSS: `@import 'path/to/bower_components/strict-reset/strict-reset';`
