@@ -4,6 +4,18 @@
 
 Use [Autoprefixer](https://github.com/postcss/autoprefixer) to add prefixes to such properties as `box-sizing` or `::placeholder`.
 
+## Install
+
+### Bower:
+
+- Terminal: `bower install strict-reset.css`
+- SCSS: `@import 'path/to/bower_components/strict-reset/strict-reset';`
+
+### Vanilla Sass
+
+- Copy `_strict-reset.scss` into your project
+- SCSS: `@import 'path/to/strict-reset';`
+
 ## License
 
 Strict-reset.css is released under the MIT License.
